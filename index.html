@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>Portal de Notícias galáticas</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <!--Aqui é feito a referência do arquivo css, que modifica este html-->
+    <script src="src/Components/CardNews.js" defer></script>
+    <!--Aqui é dito para o html importar o conteúdo do javascript, forncecendo o local-->
+    <script src="src/Components/TituloDinamico.js" defer></script>
+</head>
+
+<body>
+    <div class="container"> <!-- As marcações Html, de fato, ocorrem dentro das divs-->
+
+        <div class="card">
+            <div class="types">
+                <h6>TYPE</h6>
+                <ol><span style="font-weight: bold">grass</span>
+                    <a style="font-weight: bold">poison</a>
+                </ol>
+                <h5>Atributes</h5>
+                <p style="filter: opacity(65%);">Category:  Seed</p>
+                <p>Weight:  6.9kg</p>
+                <p style="filter: grayscale(100%);">Abilities:  Overgrow</p>
+                <p style="filter: opacity(65%);">Type:  Pokemon</p>
+                <p>Height: 0.7m</p>
+                <p style="filter: grayscale(100%);">Species:  dkjskfnd</p>
+                <h5>Weakness</h5>
+                <div class="cardio">
+                    <ol><span style="font-weight: bold">fire</span>
+                        <a style="font-weight: bold">psychic</a>
+                    </ol>
+                </div>
+            </div>
+            <div class="card_left">
+                <span class="number" style="font-weight: bold">#001</span>
+                <span class="name" >Bulbasaur</span>
+            </div>
+            <div class="card_right">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                        alt="Bulbasaur">
+                <!--Este recurso importa uma imagem passando o seu local e de sua pasta-->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
