@@ -1,0 +1,79 @@
+*{
+    margin: 10;    
+    padding: 10px;
+    padding-top: 0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: azure;
+}
+
+.card{
+    width: 90%;
+    box-shadow: 11px 7px 29px 0px rgba(0,0,0,0.75);   /* acessa o site box shadow css generator, ajusta as sombras e copia as formatações aqui*/
+    -webkit-box-shadow: 11px 7px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 7px 29px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: row;       /*este define que os lados fiquem alainhados um do lado do outro, ao invés de colunas */
+    justify-content: space-between;
+}
+
+.card_right{
+    padding-right: 150px;
+    padding-top: 200px;
+}
+
+
+.card_left{
+    display: flex;
+}
+
+.card_left > span{
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.types {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.types > ol > span {
+    background-color:#61e1ca;
+    color: #fff;
+    padding: .10rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 2rem;
+}
+.types > ol > a {
+    background-color: #d661e1;
+    color: #fff;
+    padding: .10rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 2rem;
+}
+
+.types .cardio > ol > span {
+    background-color:#e16161;
+    color: #fff;
+    padding: .10rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 2rem;
+}
+.types .cardio > ol > a {
+    background-color: #a561e1;
+    color: #fff;
+    padding: .10rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 2rem;
+}
+.types > h6 {
+    padding-left: 45px;
+}
+.types > h5{
+    padding-left: 32px;
+}
