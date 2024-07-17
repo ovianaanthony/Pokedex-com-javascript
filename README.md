@@ -9,5 +9,4 @@ Besides including the atributes of each specific pokemon choice, javascript cont
 
 ![Captura de tela 2024-07-14 110037](https://github.com/user-attachments/assets/fb5cf45d-319d-4632-a3d1-33937ff73c24)
 
-### Page web view
-Following [pokedex](http://127.0.0.1:5500/index.html) by live server.
+
